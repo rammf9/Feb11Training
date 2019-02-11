@@ -12,7 +12,7 @@ public class Step_Defcodelogin {
   WebDriver driver;
 @Given("^Open Chrome and start the application$")
 public void open_Chrome_and_start_the_application() throws Throwable {
-	 System.setProperty("webdriver.chrome.driver","C:\\Drivers\\chromedriver.exe");
+	 System.setProperty("webdriver.chrome.driver","C:\\Mohit\\drivers\\chromedriver.exe");
 	   driver=new ChromeDriver();
 	   driver.get("http://localhost:8083/TestMeApp/login.htm");
 	   driver.manage().window().maximize();
